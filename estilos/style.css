@@ -54,3 +54,12 @@ section#login > div#formulario { /* CONTEÚDO FORMULÁRIO DENTRO DA SEÇÃO LOGI
     padding: 10px;
     display: block;
 }
+
+div#formulario > h1 { /* TITULO QUE ESTA DENTRO DO FORMULÁRIO */
+    text-align: center; /* ALINHAMENTO DE TEXTO AO CENTRO */
+    margin-bottom: 10px; /* MARGEM EM BAIXO */ 
+}
+
+div#formulario > p { /* PARÁGRAFO DO FORMULÁRIO */
+    font-size: 0.8em;
+}

@@ -45,9 +45,22 @@
         width: 1020px; /* LARGURA DA JANELA DE VISUALIZAÇÃO */
     }
 
-    section#login > div#imagem {
-        float: left; /* FLUTUAR PARA A ESQUERDA */
+    section#login > div#imagem { /* CONTEUDO IMAGEM QUE ESTA DENTRO DA SEÇÃO LOGIN */
+        float: right; /* FLUTUAR PARA A DIREITA */
         width: 50%; /* LARGURA DA IMAGEM */
         height: 100%; /* ALTURA DA IMAGEM */
+    }
+
+    section#login > div#formulario { /* CONTEÚDO FORMULÁRIO DENTRO DA SEÇÃO LOGIN */
+        float: left; /* FLUTUAR P/ ESQUERDA */
+        width: 50%; /* LARGURA DO FORMULÁRIO ( METADE ) */ 
+    }
+
+    div#formulario > h1 { /* TITULO DO FORMULÁRIO */
+        font-size: 2em;
+    }
+
+    div#formulario > p { /* PARAGRÁFO DO FORMULÁRIO */
+        font-size: 1.2em;
     }
 }
