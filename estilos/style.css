@@ -80,11 +80,11 @@ div.campo > input { /*  CAIXA DE TEXTO  DENTRO DA DIV (CLASSE CAMPO) */
     background-color: #60dad6;
     font-size: 1em;
     height: 100%;
-    width: calc(100% - 45.3px); /* FUNÇÃO PARA CALCULAR */
-    border: 0px;
+    width: calc(100% - 44.8px); /* FUNÇÃO PARA CALCULAR */
+    border: none;
     border-radius: 8px;
-    padding: 4px;
-    transform: translateY(-12px);
+    padding: 5px;
+    transform: translateY(-11.8px);
 }
 
 div.campo > input:focus-within { /* CAMPO INPUT GANHAR FOTO DENTRO AO DIGITAR */
@@ -94,9 +94,9 @@ div.campo > input:focus-within { /* CAMPO INPUT GANHAR FOTO DENTRO AO DIGITAR */
 form > div.campo { /* CLASSE CAMPO DA DIV DENTRO DO FORM ( LOGIN / SENHA ) */
     background-color: #5f2c82;
     width: 100%;
-    height: 40px;
+    height: 39.6px;
     display: block;
-    border-radius: 8px;
+    border-radius: 10px;
     margin: 5px 0px;
     border: 2px solid #5f2c82;
 }
