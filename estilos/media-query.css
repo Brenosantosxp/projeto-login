@@ -9,42 +9,45 @@
     Grandes telas: acima de 1441px
 
 */
-
+            /* MEDIA QUERY P/ TABELET */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
     
     body{
         background-image: linear-gradient(to top , #49a09d , #5f2c82);
+        /* IMAGEM DE FUNDO / ESTILO DEGRADÊ > DE BAIXO P/ CIMA > CORES */
     }
     
-    section#login {
-        width: 80vw;
+    section#login { /* SEÇÃO P/ TELA DE LOGIN */
+        width: 80vw; /* LARGURA DA JANELA DE VISUALIZAÇÃO */
     }
 
-    section#login > div#imagem {
-        float: left;
-        width: 30%;
-        height: 100%;
+    section#login > div#imagem { /* CONTEUDO IMAGEM QUE ESTA DENTRO DA SEÇÃO LOGIN */
+        float: left; /* FLUTUAR PARA A ESQUERDA */
+        width: 30%; /* LARGURA DA IMAGEM */
+        height: 100%; /* ALTURA DA IMAGEM */
     }
 
-    section#login > div#formulario {
-        float: right;
-        width: 70%;
+    section#login > div#formulario { /* CONTEÚDO FORMULÁRIO DENTRO DA SEÇÃO LOGIN */
+        float: right; /* FLUTUAR PARA A DIREITA */
+        width: 70%; /* LARGURA DO FORMULÁRIO */
     }
 }
 
+        /* MEDIA QUERY P/ DESCKTOP E TELAS GRANDES */
 @media screen and (min-width: 1024px) {
     
     body{
         background-image: linear-gradient(to top , #49a09d , #5f2c82);
+        /* IMAGEM DE FUNDO / ESTILO DEGRADÊ > DE BAIXO P/ CIMA > CORES */
     }
     
-    section#login {
-        width: 1020px;
+    section#login { /* SEÇÃO P/ TELA DE LOGIN */
+        width: 1020px; /* LARGURA DA JANELA DE VISUALIZAÇÃO */
     }
 
     section#login > div#imagem {
-        float: left;
-        width: 50%;
-        height: 100%;
+        float: left; /* FLUTUAR PARA A ESQUERDA */
+        width: 50%; /* LARGURA DA IMAGEM */
+        height: 100%; /* ALTURA DA IMAGEM */
     }
 }
