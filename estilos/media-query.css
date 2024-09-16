@@ -19,6 +19,7 @@
     
     section#login { /* SEÇÃO P/ TELA DE LOGIN */
         width: 80vw; /* LARGURA DA JANELA DE VISUALIZAÇÃO */
+        height: 300px; /* ALTURA DA JANELA DE VISUALIZAÇÃO */
     }
 
     section#login > div#imagem { /* CONTEUDO IMAGEM QUE ESTA DENTRO DA SEÇÃO LOGIN */
@@ -43,6 +44,7 @@
     
     section#login { /* SEÇÃO P/ TELA DE LOGIN */
         width: 1020px; /* LARGURA DA JANELA DE VISUALIZAÇÃO */
+        height: 350px; /* ALTURA DA JANELA DE VISUALIZAÇÃO */
     }
 
     section#login > div#imagem { /* CONTEUDO IMAGEM QUE ESTA DENTRO DA SEÇÃO LOGIN */
@@ -61,6 +63,7 @@
     }
 
     div#formulario > p { /* PARAGRÁFO DO FORMULÁRIO */
-        font-size: 1.2em;
+        font-size: 1.1em;
+        margin: 20px 0px;
     }
 }
